@@ -43,177 +43,177 @@ function counter(name){
     return name++;
 }
 
-// function playSound(name){
-//     //for loop to loop through the alphabet array so it can play audios for the user
-//     for(var i = 0; i < alphabets.length; i++){
-//         if(name == alphabets[i]){
-//            var audio = new Audio("sounds/"+alphabets[i]+".wav");
-//         audio.play(); 
-//         }
-        
-//     }
-// }
-
 function playSound(name){
-    switch (name) {
-        case "a":
-        case "A":
-            var A = new Audio ("sounds/A.wav");
-            A.play();
-            break;
-    
-        case "b":
-        case "B":
-            var B = new Audio ("sounds/B.wav");
-            B.play();
-            break;
-    
-        case "c":
-        case "C":
-            var C = new Audio ("sounds/C.wav");
-            C.play();
-            break;
-    
-        case "d":
-        case "D":
-            var D = new Audio ("sounds/D.wav");
-            D.play();
-            break;
-    
-        case "e":
-        case "E":
-            var E = new Audio ("sounds/E.wav");
-            E.play();
-            break;
-    
-        case "f":
-        case "F":
-            var F = new Audio ("sounds/F.wav");
-            F.play();
-            break;
-    
-        case "g":
-        case "G":
-            var G = new Audio ("sounds/G.wav");
-            G.play();
-            break;
-    
-        case "h":
-        case "H":
-            var H = new Audio ("sounds/H.wav");
-            H.play();
-            break;
-    
-        case "i":
-        case "I":
-            var I = new Audio ("sounds/I.wav");
-            I.play();
-            break;
-    
-        case "j":
-        case "J":
-            var J = new Audio ("sounds/J.wav");
-            J.play();
-            break;
-    
-        case "k":
-        case "A":
-            var A = new Audio ("sounds/A.wav");
-            A.play();
-            break;
-    
-        case "l":
-        case "L":
-            var L = new Audio ("sounds/L.wav");
-            L.play();
-            break;
-    
-        case "m":
-        case "M":
-            var M = new Audio ("sounds/M.wav");
-            M.play();
-            break;
-    
-        case "n":
-        case "N":
-            var N = new Audio ("sounds/N.wav");
-            N.play();
-            break;
-    
-        case "o":
-        case "O":
-            var O = new Audio ("sounds/O.wav");
-            O.play();
-            break;
-    
-        case "p":
-        case "P":
-            var P = new Audio ("sounds/P.wav");
-            P.play();
-            break;
-    
-        case "q":
-        case "Q":
-            var Q = new Audio ("sounds/Q.wav");
-            Q.play();
-            break;
-    
-        case "r":
-        case "R":
-            var R = new Audio ("sounds/R.wav");
-            R.play();
-            break;
-    
-        case "s":
-        case "S":
-            var S = new Audio ("sounds/S.wav");
-            S.play();
-            break;
-    
-        case "t":
-        case "T":
-            var T = new Audio ("sounds/T.wav");
-            T.play();
-            break;
-    
-        case "u":
-        case "U":
-            var U = new Audio ("sounds/U.wav");
-            U.play();
-            break;
-    
-        case "v":
-        case "V":
-            var V = new Audio ("sounds/V.wav");
-            V.play();
-            break;
-
-        case "w":
-        case "W":
-            var W = new Audio ("sounds/W.wav");
-            W.play();
-            break;
-            
-        case "x":
-        case "A":
-            var X = new Audio ("sounds/X.wav");
-            X.play();
-            break;
-
-        case "y":
-        case "Y":
-            var Y = new Audio ("sounds/Y.wav");
-            Y.play();
-            break;
-
-        case "z":
-        case "Z":
-            var Z = new Audio ("sounds/Z.wav");
-            Z.play();
-            break;
-    
-        default:
-            console.log(name)
-            break;
+    //for loop to loop through the alphabet array so it can play audios for the user
+    for(var i = 0; i < alphabets.length; i++){
+        if(name == alphabets[i]){
+           var audio = new Audio("sounds/"+alphabets[i]+".wav");
+        audio.play(); 
+        }
+        
     }
 }
+
+// function playSound(name){
+//     switch (name) {
+//         case "a":
+//         case "A":
+//             var A = new Audio ("sounds/A.wav");
+//             A.play();
+//             break;
+    
+//         case "b":
+//         case "B":
+//             var B = new Audio ("sounds/B.wav");
+//             B.play();
+//             break;
+    
+//         case "c":
+//         case "C":
+//             var C = new Audio ("sounds/C.wav");
+//             C.play();
+//             break;
+    
+//         case "d":
+//         case "D":
+//             var D = new Audio ("sounds/D.wav");
+//             D.play();
+//             break;
+    
+//         case "e":
+//         case "E":
+//             var E = new Audio ("sounds/E.wav");
+//             E.play();
+//             break;
+    
+//         case "f":
+//         case "F":
+//             var F = new Audio ("sounds/F.wav");
+//             F.play();
+//             break;
+    
+//         case "g":
+//         case "G":
+//             var G = new Audio ("sounds/G.wav");
+//             G.play();
+//             break;
+    
+//         case "h":
+//         case "H":
+//             var H = new Audio ("sounds/H.wav");
+//             H.play();
+//             break;
+    
+//         case "i":
+//         case "I":
+//             var I = new Audio ("sounds/I.wav");
+//             I.play();
+//             break;
+    
+//         case "j":
+//         case "J":
+//             var J = new Audio ("sounds/J.wav");
+//             J.play();
+//             break;
+    
+//         case "k":
+//         case "A":
+//             var A = new Audio ("sounds/A.wav");
+//             A.play();
+//             break;
+    
+//         case "l":
+//         case "L":
+//             var L = new Audio ("sounds/L.wav");
+//             L.play();
+//             break;
+    
+//         case "m":
+//         case "M":
+//             var M = new Audio ("sounds/M.wav");
+//             M.play();
+//             break;
+    
+//         case "n":
+//         case "N":
+//             var N = new Audio ("sounds/N.wav");
+//             N.play();
+//             break;
+    
+//         case "o":
+//         case "O":
+//             var O = new Audio ("sounds/O.wav");
+//             O.play();
+//             break;
+    
+//         case "p":
+//         case "P":
+//             var P = new Audio ("sounds/P.wav");
+//             P.play();
+//             break;
+    
+//         case "q":
+//         case "Q":
+//             var Q = new Audio ("sounds/Q.wav");
+//             Q.play();
+//             break;
+    
+//         case "r":
+//         case "R":
+//             var R = new Audio ("sounds/R.wav");
+//             R.play();
+//             break;
+    
+//         case "s":
+//         case "S":
+//             var S = new Audio ("sounds/S.wav");
+//             S.play();
+//             break;
+    
+//         case "t":
+//         case "T":
+//             var T = new Audio ("sounds/T.wav");
+//             T.play();
+//             break;
+    
+//         case "u":
+//         case "U":
+//             var U = new Audio ("sounds/U.wav");
+//             U.play();
+//             break;
+    
+//         case "v":
+//         case "V":
+//             var V = new Audio ("sounds/V.wav");
+//             V.play();
+//             break;
+
+//         case "w":
+//         case "W":
+//             var W = new Audio ("sounds/W.wav");
+//             W.play();
+//             break;
+            
+//         case "x":
+//         case "A":
+//             var X = new Audio ("sounds/X.wav");
+//             X.play();
+//             break;
+
+//         case "y":
+//         case "Y":
+//             var Y = new Audio ("sounds/Y.wav");
+//             Y.play();
+//             break;
+
+//         case "z":
+//         case "Z":
+//             var Z = new Audio ("sounds/Z.wav");
+//             Z.play();
+//             break;
+    
+//         default:
+//             console.log(name)
+//             break;
+//     }
+// }
