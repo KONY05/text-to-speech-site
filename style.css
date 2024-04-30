@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #283149;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* h1, h3, textarea{
+    text-align: center;
+} */
+
+h1{
+    font-size: 3rem;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-family: "Permanent Marker", sans-serif;
+}
+
+#ps, #text{
+    margin-bottom: 50px;
+}
+
+h1, h3, .para, #ps{
+    color: rgb(231, 227, 227);
+}
+
+#text{
+    color: rgb(148, 126, 126);
+    font-weight: 700;
+    font-size: 3rem;
+    display: inline-block;
+    justify-content: center;
+    margin: 0px 50px 50px;
+    word-wrap: break-word;
+    /* border: 1px solid black; */
+}
+
+#ps{
+    margin-top: 10px;
+    font-weight:400;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+
+textarea{
+    width: 80%;
+    height: 100%;
+    /* color: black; */
+    font-weight: 600;
+    position: relative;
+}
+
+.para{
+    position: absolute;
+    left: 10%;
+    text-wrap: wrap;
+}
+
+#counterUp{
+    color: yellow;
+}
+
+#counterDown{
+    color: rgb(16, 230, 16);
+}
