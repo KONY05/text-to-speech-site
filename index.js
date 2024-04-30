@@ -3,7 +3,7 @@ var notWanted = ['Backspace', 'Enter', 'Shift', 'ArrowUp', 'ArrowDown', 'ArrowLe
 
 var alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
-// alert("Kindly reduce your volume 😬")
+alert("Kindly reduce your volume 😬")
 
 
 //event listener looking out for a keypress in the textarea
